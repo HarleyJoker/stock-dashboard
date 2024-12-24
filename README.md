@@ -2,6 +2,31 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.6.
 
+## Project Overview
+The Stock Price Dashboard Frontend is an Angular application designed to provide a user-friendly interface for viewing historical stock price data. It consumes the backend API to display data such as stock metadata, time series data, and other details in a responsive dashboard.
+
+## Features
+Dropdown for selecting stock symbols (e.g., MSFT, AAPL, AMZN, NFLX, FB).
+Displays stock metadata (e.g., Symbol, Last Refreshed Time).
+Displays historical daily stock prices (Open, High, Low, Close, Volume).
+
+## Technologies Used
+Frontend Framework: Angular 19
+Programming Language: TypeScript
+HTTP Library: Axios
+Styling: CSS
+
+## API Integration
+The frontend communicates with the backend API to fetch stock data.
+
+## Usage
+Start the backend API server.
+Start the frontend application:
+ng serve
+Navigate to http://localhost:4200 in your browser.
+Log in to obtain a JWT token and access the dashboard.
+Select a stock symbol to view its historical data.
+
 ## Development server
 
 To start a local development server, run:

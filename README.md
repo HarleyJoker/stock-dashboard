@@ -24,7 +24,6 @@ Start the backend API server.
 Start the frontend application:
 ng serve
 Navigate to http://localhost:4200 in your browser.
-Log in to obtain a JWT token and access the dashboard.
 Select a stock symbol to view its historical data.
 
 ## Development server
